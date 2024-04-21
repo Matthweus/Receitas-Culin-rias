@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/receita2.ico" type="image/x-icon">
+    <title>Cadastro - Receitas Culinárias</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seus estilos CSS personalizados -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            margin-top: 30vh;
+            text-align: center; /* Centraliza o texto */
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .thank-you {
+            margin-bottom: 30px; /* Adiciona espaço entre o texto de agradecimento e o rodapé */
+        }
+        .footer {
+            background-color: #000000; /* Cor de fundo do rodapé */
+            color: #000000; /* Cor do texto do rodapé */
+            padding: 60px 0; /* Espaçamento interno */
+            text-align: center; /* Alinhamento do texto */
+            position: absolute; /* Define a posição absoluta */
+            bottom: 0; /* Alinha o rodapé na parte inferior da janela */
+            width: 100%; /* Ocupa toda a largura */
+        }
+        .footer span {
+            display: block; /* Exibir como bloco para ocupar a largura total */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">Receitas Culinárias</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content (cadastro) -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 form-container">
+                <div class="thank-you">
+                    <h2>Obrigado por se cadastrar!</h2>
+                    <p>Seu cadastro foi realizado com sucesso.</p>
+                    <p>Agora você faz parte da nossa comunidade de amantes da culinária!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light text-center py-3">
+        <div class="container">
+            <span>&copy; 2024 Receitas Culinárias. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
